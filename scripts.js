@@ -269,8 +269,66 @@
 // console.log(day);
 
 
-// FOR LOOP
-for(let i = 0; i < 10; i++){
-	console.log(i);
-}
+// // FOR loop
+// for(let i = 0; i < 10; i++){
+// 	if(i === 2){
+// 		console.log('2 is my favorite number');
+// 		continue;
+// 	}
+// 	if(i === 5){
+// 		break;
+// 	}
+// 	console.log(i);
+// }
 
+// //WHILE loop
+// let i = 0;
+
+// while(i < 10){
+// 	console.log(i);
+// 	i++;
+// }
+
+// 
+
+// //LOOP throug Array
+// const cars = ['Toyota', 'Peugeot', 'Honda', 'Ford', 'Tavria'];
+
+// for(let i = 0; i < cars.length; i++){
+// 	console.log(cars[i]);
+// }
+
+
+ const cars = ['Toyota', 'Peugeot', 'Honda', 'Ford', 'Tavria'];
+// cars.forEach(function(car){
+// 	console.log(car);
+// });
+
+// cars.forEach(function(car, index){
+// 	console.log(`${index} : ${car}`);
+// });
+
+//MAP method
+const users = [
+	{id:1, name:'John'},
+	{id:2, name:'Sara'},
+	{id:3, name:'Mike'},
+	{id:4, name:'Tom'},
+	{id:5, name:'Bil'}
+];
+
+const ids = users.map(function(user){
+	return user.id;
+});
+console.log(ids);
+
+
+//FOR IN loop
+const user = {
+	firstName: 'Vitalii',
+	lastName: 'Popovych',
+	age: 29
+}
+for(let x in user){
+	console.log(`${x} : ${user[x]}`);
+}
