@@ -228,43 +228,49 @@
 // 	console.log('No id');
 // }
 
-const color = 'red';
-switch(color){
-	case 'red':
-	 console.log('Color is red');
-	 break;
-	case 'blue':
-	 console.log('Color is blue'); 
-	 break;
-	defaul:
-	 console.log('Color is not red or blue');
-	 break;
-}
+// const color = 'red';
+// switch(color){
+// 	case 'red':
+// 	 console.log('Color is red');
+// 	 break;
+// 	case 'blue':
+// 	 console.log('Color is blue'); 
+// 	 break;
+// 	defaul:
+// 	 console.log('Color is not red or blue');
+// 	 break;
+// }
 
-let day;
+// let day;
 
-switch(new Date().getDay()){
-	case 0:
-	 day = 'Sunday';
-	 break;
-	case 1:
-	 day = 'Fu..k! Only Monday';
-	 break;
-	case 2:
-	 day = 'Tuesday';
-	 break;
-	case 3:
-	 day = 'Wednesday';
-	 break;
-	case 4:
-	 day = 'Thursday';
-	 break;
-	case 5:
-	 day = 'Friday';
-	 break;
-	case 6:
-	 day = 'Weeee it\'s Saturday!!!';
-	 break;
+// switch(new Date().getDay()){
+// 	case 0:
+// 	 day = 'Sunday';
+// 	 break;
+// 	case 1:
+// 	 day = 'Fu..k! Only Monday';
+// 	 break;
+// 	case 2:
+// 	 day = 'Tuesday';
+// 	 break;
+// 	case 3:
+// 	 day = 'Wednesday';
+// 	 break;
+// 	case 4:
+// 	 day = 'Thursday';
+// 	 break;
+// 	case 5:
+// 	 day = 'Friday';
+// 	 break;
+// 	case 6:
+// 	 day = 'Weeee it\'s Saturday!!!';
+// 	 break;
+// }
+// console.log(day);
+
+
+// FOR LOOP
+for(let i = 0; i < 10; i++){
+	console.log(i);
 }
-console.log(day);
 
