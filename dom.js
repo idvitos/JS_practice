@@ -322,3 +322,70 @@
 
 	// e.preventDefault();
 //}
+
+
+// //EVENT BUBBLING
+// document.querySelector('.card-title').addEventListener('click', function(){
+// 	console.log('card title');
+// });
+
+// document.querySelector('.card-content').addEventListener('click', function(){
+// 	console.log('card content');
+// });
+
+// document.querySelector('.card').addEventListener('click', function(){
+// 	console.log('card');
+// });
+
+// document.querySelector('.col').addEventListener('click', function(){
+// 	console.log('col');
+// });
+
+
+//EVENT DELEGATION
+// const delItem = document.querySelector('.delete-item');
+
+// delItem,addEventListener('click', deleteItem);
+
+// document.body.addEventListener('click', deleteItem);
+
+// function deleteItem(e){
+// 	if(e.target.className === 'fa fa-remove'){
+// 		console.log('delete item');
+// 	}
+// }
+
+
+// //set local storage item
+// localStorage.setItem('name', 'John');
+
+// //set session storage item
+// sessionStorage.setItem('name', 'John');
+
+// //remove from storage
+// localStorage.removeItem('name');
+
+// //get from Storage
+// const name = localStorage.getItem('name');
+// console.log(name);
+
+// //clear local storage
+// localStorage.clear();
+
+// document.querySelector('form').addEventListener('submit', function(e){
+// 	const task = document.getElementById('task').value;
+	
+// 	let tasks;
+
+// 	if(localStorage.getItem('tasks') === null){
+// 		tasks = [];
+// 	} else{
+// 		tasks = JSON.parse(localStorage.getItem('tasks'));
+// 	}
+
+// 	tasks.push(task);
+
+// 	localStorage.setItem('task', JSON.stringify(tasks));
+	
+// 	e.preventDefault();
+// });
